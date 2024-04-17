@@ -34,7 +34,7 @@ public class PasswordGenerator {
 		anno = input.nextShort();
 		
 		somma = giorno + mese + anno;
-	    System.out.println(somma);			
+		System.out.println(somma);			
 		
 		System.out.println("La tua password è "+ nome + "-" + cognome + "-" + colorePreferito+ "-" + somma);
 	}
